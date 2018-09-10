@@ -1,5 +1,5 @@
 node {
-    def mvnHome = tool 'Maven'
+    def mvnHome = tool 'maven3'
     
     // Mark the code checkout 'stage'....
     stage 'Checkout'
